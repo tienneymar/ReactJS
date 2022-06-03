@@ -1,23 +1,23 @@
 const type = [
   {
-    display: "Under 1M",
-    type: "s",
+    display: "Dưới 1 Triệu ",
+    type: "500",
   },
   {
-    display: "1M-3M",
-    type: "m",
+    display: "1 Triệu-3 Triệu",
+    type: "750",
   },
   {
-    display: "3M-7M",
-    type: "l",
+    display: "3 Triệu-7 Triệu",
+    type: "450",
   },
   {
-    display: "7M-10M",
-    type: "xl",
+    display: "7 Triệu-10 Triệu",
+    type: "700",
   },
   {
-    display: ">10M",
-    type: "xxl",
+    display: ">10 Triệu",
+    type: "800",
   },
 ];
 

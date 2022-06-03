@@ -15,40 +15,39 @@ const Footer = () => {
       <div className="container">
         <Grid col={3} mdCol={1} smCol={1} gap={30}>
           <div>
-            <div className="footer__title">About us</div>
+            <div className="footer__title">Về Chúng Tôi</div>
             <p className="footer__logo">
               <Link to="/">
                 <img src={logo} alt="#" style={{ width: "55%" }} />
               </Link>
             </p>
             <p className="footer__content">
-              A Household Worker falls under the broader career category of
-              Maids and Housekeeping Cleaners.
+            Website Rượu Ngoại luôn đem lại cho khách hàng những sản phẩm tốt nhất đạt chất lượng hàng đầu Châu Á...!
             </p>
           </div>
 
           <div>
-            <div className="footer__title">CONTACT US</div>
+            <div className="footer__title">Thông Tin Liên Hệ</div>
             <div className="footer__content" style={{ marginBottom: "2rem" }}>
               <p className="footer__content__info">
                 <i class="bx bx-map"></i>
-                <span>13 Ward, Arizona Street, Ward City, USA</span>
+                <span>34 Thất Hùng-Kinh Môn-Hải Dương</span>
               </p>
               <a className="footer__content__info" href="...">
                 <i class="bx bx-phone"></i>
-                <span>+1-234-56789</span>
+                <span>+84 356 275 725</span>
               </a>
               <a
                 className="footer__content__info"
                 href="mailto:Abc123@donga.edu.vn"
               >
                 <i class="bx bx-mail-send"></i>
-                <span>tadwilson@gmail.com</span>
+                <span>nguyen.tien1880@gmail.com</span>
               </a>
 
               <p className="footer__content__info">
                 <i class="bx bx-time-five"></i>
-                <span>Open Monday to Friday 7AM - 09PM: GMT-1</span>
+                <span>Mở Cửa Từ T2-T6 7AM - 09PM: GMT-1</span>
               </p>
             </div>
 
@@ -79,7 +78,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <div className="footer__title">Sponsors</div>
+            <div className="footer__title">Phát Triển</div>
             <div className="footer__content"></div>
             <p className="footer____sponsor__logo">
               <Link to="/">
@@ -109,7 +108,7 @@ const Footer = () => {
               </Link>
             </p>
             <p className="footer__content">
-              Sponsors for the branches of Future House since 2019.
+             Các Công Ty Cùng Hợp Tác Và Phát Triển Từ Những Năm 2020
             </p>
           </div>
         </Grid>

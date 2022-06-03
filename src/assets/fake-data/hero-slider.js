@@ -5,29 +5,29 @@ const img4 = require("../images/slide_image/number1_slider.png").default;
 
 const heroSliderData = [
   {
-    title: "Welcome to the best household World Inc. FUTURE HOUSE",
+    title: "Chào Mừng Khách Hàng Đã Đến Shop Rượu Ngoại Minh Tiến",
     description: "",
     img: img4,
     path: "/catalog/sofa",
   },
   {
-    title: "Professional Household",
+    title: "Rượu Ngoại Chivas ",
     description:
-      "Perform any combination of light cleaning duties to maintain private households or commercial establishments, such as hotels and hospitals, in a clean and orderly manner. Duties may include making beds, replenishing linens, cleaning rooms and halls, and vacuuming. Reliable services and the best worthy household distribution of the world, sponsor by Fedex.",
+      "Rượu Chivas 12YO là dòng sản phẩm nổi bật của thương hiệu Chivas với nhiều tầng lớp hương vị của Whisky lúa mạch và Whisky mạch nha, được chưng cất từ nhiều khu vực nổi tiếng của đất nước Scotland.",
     img: img1,
     path: "/",
   },
   {
-    title: "Dedicated Services",
+    title: "Rượu Ngoại Voldka",
     description:
-      "Household Managers take care of the daily details of managing a home thereby freeing up time for the employer to do other things. This is a rather general job title and actual duties will vary in each situation. The more complex the residence and the standards of the home, then the more sophisticated and professional the House Manager should be. Best choice!",
+      "Vodka là loại rượu chưng cất trong , thường là không mầu và có độ cồn tương đối cao từ 35 - 50 % . Nguyên liệu để sản xuất ra Vodka thường từ 100 % là Lúa mạch . Vodka nguyên là thứ rượu có nguồn gốc từ một số nước Đông Âu nhất là Nga !",
     img: img2,
     path: "/",
   },
   {
-    title: "Reasonable Prices",
+    title: "Rượu Ngoại Macallan",
     description:
-      "Taking care of the daily details can mean that the House Manager is doing some cooking, cleaning, driving and other domestic tasks. At this level, the position is relatively uncomplicated and salaries are often in the $40 – $50,000 range typically with accommodation and medical benefits. The successful employee will often be efficient, skillful and quick, which will usually make the employer happy.",
+      "Rượu Single Malt Rượu The Macallan Classic Cut – 2019 RELEASE 700ml/58.4% là sản phẩm ra đầu tiên nằm trong chuỗi sản phẩm được ra mắt hàng năm nhằm tôn vinh sự phấn đấu cố gắng không ngừng nghỉ của thương hiệu The Macallan trong quá trình tạo ra những điều phi thường và khác biệt.",
     img: img3,
     path: "/",
   },

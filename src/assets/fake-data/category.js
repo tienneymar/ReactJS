@@ -1,14 +1,14 @@
 const category = [
   {
-    display: "Decoration",
+    display: "Rượu Chivas ",
     categorySlug: "decoration",
   },
   {
-    display: "Must-have Household",
+    display: "Rượu Vang",
     categorySlug: "household",
   },
   {
-    display: "Special",
+    display: "Rượu Macallan",
     categorySlug: "special",
   },
 ];

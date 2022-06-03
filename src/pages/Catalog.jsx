@@ -91,7 +91,7 @@ const Catalog = () => {
           </div>
           <div className="catalog__filter__widget">
             <div className="catalog__filter__widget__title">
-              Product categories
+            Danh Sách Sản Phẩm
             </div>
             <div className="catalog__filter__widget__content">
               {category.map((item, index) => (
@@ -111,7 +111,7 @@ const Catalog = () => {
             </div>
           </div>
           <div className="catalog__filter__widget">
-            <div className="catalog__filter__widget__title">Prices (VND)</div>
+            <div className="catalog__filter__widget__title">Giá Tiền (VND)</div>
             <div className="catalog__filter__widget__content">
               {type.map((item, index) => (
                 <div
@@ -133,14 +133,14 @@ const Catalog = () => {
           <div className="catalog__filter__widget">
             <div className="catalog__filter__widget__content">
               <Button type="sm" onClick={clearFilter}>
-                Remove filter
+              Back
               </Button>
             </div>
           </div>
         </div>
         <div className="catalog__filter__toggle">
           <Button type="sm" onClick={() => showHideFilter()}>
-            Filter
+          Tìm Kiếm 
           </Button>
         </div>
         <div className="catalog__content">

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Helmet = (props) => {
   document.title =
-    "Future House: The best household distrubutor " + props.title;
+    "Website Rượu Ngoại Minh Tiến ";
 
   React.useEffect(() => {
     window.scrollTo(0, 0);

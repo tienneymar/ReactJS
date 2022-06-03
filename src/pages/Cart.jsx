@@ -25,7 +25,7 @@ const Cart = () => {
     setCartProducts(productData.getCartItemsInfo(cartItems));
     setTotalPrice(
       cartItems.reduce(
-        (total, item) => total + Number(item.quantity) * Number(item.price),
+        (total, item) => total + Number(item.quantity) * Number(item.price) ,
         0
       )
     );
@@ -39,16 +39,16 @@ const Cart = () => {
       <div className="cart">
         <div className="cart__info">
           <div className="cart__info__txt">
-            <p>You have total {totalProducts} products in your cart</p>
+            <p>Bạn Đang Có Tất Cả  {totalProducts} Sản Phẩm </p>
             <div className="cart__info__txt__price">
-              <span>Total value:</span>{" "}
-              <span>{numberWithCommas(Number(totalPrice))}</span>
+              <span>Tổng Tiền:</span>{" "}
+              <span>{numberWithCommas(Number(totalPrice))} VND</span>
             </div>
           </div>
           <div className="cart__info__btn">
-            <Button size="block">Purchase</Button>
-            <Link to="/catalog">
-              <Button size="block">Discover more</Button>
+            <Button size="block">TiẾp TỤc Mua HàNg</Button>
+            <Link to="/checkout">
+              <Button size="block">Thanh Toán</Button>
             </Link>
           </div>
         </div>

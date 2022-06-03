@@ -59,9 +59,9 @@ const ProductView = (props) => {
       quantity: quantity,
     };
     if (dispatch(addItem(newItem))) {
-      alert("Add to cart successfully!");
+      alert("Đã Thêm Sản Phẩm Vào Giỏ Hàng!");
     } else {
-      alert("Fail");
+      alert("Thất Bại");
     }
   };
 
@@ -69,7 +69,7 @@ const ProductView = (props) => {
     let newItem = {
       slug: product.slug,
 
-      type: type,
+      type: type ,
       price: product.price,
       quantity: quantity,
     };
@@ -104,7 +104,7 @@ const ProductView = (props) => {
         <div
           className={`product-description ${descriptionExpand ? "expand" : ""}`}
         >
-          <div className="product-description__title">Product Details</div>
+          <div className="product-description__title">Thông Tin Sản Phẩm</div>
           <div
             className="product-description__content"
             dangerouslySetInnerHTML={{ __html: product.description }}
@@ -114,7 +114,7 @@ const ProductView = (props) => {
               size="sm"
               onClick={() => setDescriptionExpand(!descriptionExpand)}
             >
-              {descriptionExpand ? "Hide" : "More"}
+              {descriptionExpand ? "Ẩn Đi" : "Tiếp Tục"}
             </Button>
           </div>
         </div>
@@ -128,7 +128,7 @@ const ProductView = (props) => {
         </div>
 
         <div className="product__info__item">
-          <div className="product__info__item__title">Type</div>
+          <div className="product__info__item__title">Loại Rượu</div>
           <div className="product__info__item__list">
             {product.type.map((item, index) => (
               <div
@@ -146,7 +146,7 @@ const ProductView = (props) => {
           </div>
         </div>
         <div className="product__info__item">
-          <div className="product__info__item__title">Amount</div>
+          <div className="product__info__item__title">Số Lượng</div>
           <div className="product__info__item__quantity">
             <div
               className="product__info__item__quantity__btn"
@@ -166,8 +166,8 @@ const ProductView = (props) => {
           </div>
         </div>
         <div className="product__info__item">
-          <Button onClick={() => addToCart()}>Add to cart</Button>
-          <Button onClick={() => goToCart()}>Purchase now</Button>
+          <Button onClick={() => addToCart()}>Mua Hàng</Button>
+          <Button onClick={() => goToCart()}>Mua Ngay</Button>
         </div>
       </div>
       <div
@@ -175,7 +175,7 @@ const ProductView = (props) => {
           descriptionExpand ? "expand" : ""
         }`}
       >
-        <div className="product-description__title">Product Details</div>
+        <div className="product-description__title">SẢn PhẨM</div>
         <div
           className="product-description__content"
           dangerouslySetInnerHTML={{ __html: product.description }}

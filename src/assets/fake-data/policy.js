@@ -1,22 +1,22 @@
 const policy = [
   {
-    name: "Fast & Safety",
-    description: "Fast-and-safety delivery with the price list > 239K",
+    name: "Nhanh & Tiện Lợi",
+    description: "Giao hàng nhanh chóng và thuận lợi  > 239K",
     icon: "bx bx-task",
   },
   {
-    name: "Payments Support",
-    description: "Support different payment methods like COD, Visa,...",
+    name: "Thanh Toán Qua Thẻ",
+    description: "Nhận thanh toán các loại thẻ COD,Visa,...",
     icon: "bx bx-money",
   },
   {
-    name: "12-Month Insurance",
-    description: "Ensuring 12 month insurance and warranty",
+    name: "1-Tháng Bảo Hành",
+    description: "Liên Hệ Và Đổi Trả Trong Vòng 1 Tháng",
     icon: "bx bx-purchase-tag",
   },
   {
-    name: "Contact 24/7",
-    description: "Live call and support customers 24/7",
+    name: "Hoạt Động 24/7",
+    description: "Hãy gọi ngay cho chúng tôi mọi lúc 24/7",
     icon: "bx bx-phone-call",
   },
 ];

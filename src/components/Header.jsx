@@ -5,19 +5,19 @@ import logo from "../assets/images/Household_logo.png";
 
 const mainNav = [
   {
-    display: "Home",
+    display: "Trang Chủ",
     path: "/",
   },
   {
-    display: "Products",
+    display: "Sản Phẩm",
     path: "/catalog",
   },
   {
-    display: "Contact",
+    display: "Liên Hệ",
     path: "/contact",
   },
   {
-    display: "About Us",
+    display: "Thông Báo",
     path: "/abouts",
   },
 ];
@@ -88,7 +88,9 @@ const Header = () => {
               </Link>
             </div>
             <div className="header__menu__item header__menu__right__item">
+            <Link to="/login">
               <i className="bx bx-user"></i>
+              </Link>
             </div>
             <div className="header__menu__item header__menu__right__item">
               <i className="bx bx-wrench"></i>

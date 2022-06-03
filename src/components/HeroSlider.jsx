@@ -85,7 +85,7 @@ const HeroSliderItem = (props) => (
             icon="bx bx-info-circle"
             animate={false}
           >
-            Purchase now
+            Mua Sản Phẩm
           </Button>
         </Link>
       </div>

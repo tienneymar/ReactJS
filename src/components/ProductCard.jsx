@@ -25,7 +25,7 @@ const ProductCard = (props) => {
         <div className="product-card__price">
           {numberWithCommas(props.price) + "đ"}
           <span className="product-card__price__ship">
-            <span>Freeship 🚚</span>
+            <span>Miễn Phí 🚚</span>
           </span>
         </div>
       </Link>
@@ -36,7 +36,7 @@ const ProductCard = (props) => {
           animate={true}
           onClick={() => dispatch(set(props.slug))}
         >
-          purchase
+          Mua Hàng
         </Button>
       </div>
     </div>

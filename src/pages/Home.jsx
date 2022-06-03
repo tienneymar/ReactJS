@@ -46,7 +46,7 @@ const Home = () => {
 
       {/* best selling section */}
       <Section>
-        <SectionTitle>New products 🛒</SectionTitle>
+        <SectionTitle>Sản Phẩm Mới 🛒</SectionTitle>
         <SectionBody>
           <Grid col={4} mdCol={2} smCol={1} gap={20}>
             {productData.getProducts(4).map((item, index) => (
@@ -66,7 +66,7 @@ const Home = () => {
 
       {/* new arrival section */}
       <Section>
-        <SectionTitle>Top sell products of this month 🆙</SectionTitle>
+        <SectionTitle>Sản Phẩm Khuyến Mại 🆙</SectionTitle>
         <SectionBody>
           <Grid col={4} mdCol={2} smCol={1} gap={20}>
             {productData.getProducts(8).map((item, index) => (
@@ -96,7 +96,7 @@ const Home = () => {
 
       {/* popular product section */}
       <Section>
-        <SectionTitle>Top popular 🤝</SectionTitle>
+        <SectionTitle>Sản Phẩm Bán Chạy 🤝</SectionTitle>
         <SectionBody>
           <Grid col={4} mdCol={2} smCol={1} gap={20}>
             {productData.getProducts(12).map((item, index) => (
